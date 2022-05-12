@@ -13,6 +13,8 @@ In the project directory, you can run:
 <img width="959" alt="landing page" src="https://github.com/AkshaykumarG26/form-builder-app/blob/master/public/imagesAndVideo/2.png">
 
 
-### video
+### video Link
+- https://github.com/AkshaykumarG26/form-builder-app/blob/master/public/imagesAndVideo/Submit.mp4
 
+<video src="https://github.com/AkshaykumarG26/form-builder-app/blob/master/public/imagesAndVideo/Submit.mp4">Video</video>
 
