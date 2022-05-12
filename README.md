@@ -15,6 +15,4 @@ In the project directory, you can run:
 
 ### video
 
-https://github.com/AkshaykumarG26/form-builder-app/blob/master/public/imagesAndVideo/video1526885478.mp4
-
 
