@@ -15,11 +15,4 @@ In the project directory, you can run:
 
 ### video
 
-<video width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=KGkiIBTq0y0" type="video/mp4">
-  
-  Watch Video Here
-</video>
-
-https://www.youtube.com/watch?v=KGkiIBTq0y0
 
