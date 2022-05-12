@@ -6,7 +6,7 @@ import { Form } from "../Form";
 // import { CreateFormsNav } from "./CreateFormNav";
 
 export const CreateForms = () => {
-  const [elements, setElements] = useState([]);
+  const [elements, setElements] = useState();
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -22,26 +22,29 @@ export const CreateForms = () => {
 
   const handleSubmit = () => {
     // console.log(data)
-    // setElements([...elements, data])
+    // setElements( data)
     // console.log("data",{data})
-    console.log(JSON.stringify(data))
+    console.log("data",JSON.stringify(data))
     // console.log("elements", elements)
 
-    // fetch("http://localhost:5000/createforms", {
-    //   method: "POST",
-    //   headers: {
-    //     Accept: "application/json",
-    //     "Content-Type": "application/json",
-    //   },
-    //   // body: JSON.stringify(elements),
-    //   body: elements
-    // })
-    //   .then((res) => {
-    //     alert(res);
-    //   })
-    //   .catch((err) => {
-    //     alert(err);
-    //   });
+    fetch("http://localhost:5000/createforms", {
+      method: "POST",
+      headers: {
+        // "Accept": "application/json",
+        "Content-Type": "application/json",
+      },
+      // body: elements,
+      // body: [...elements, data]
+      body: data.map((d) => {
+        return d
+      })
+    })
+      .then((res) => {
+        alert(res);
+      })
+      .catch((err) => {
+        alert(err);
+      });
   }
 
   return (
