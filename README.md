@@ -6,5 +6,6 @@ In the project directory, you can run:
 
 ### `npm start`
 
-![alt text](../../public/imagesAndVideo/1.png)
+<img width="959" alt="landing page" src="https://github.com/AkshaykumarG26/form-builder-app/blob/master/public/imagesAndVideo/1.png">
+
 ![alt text]("../../public/imagesAndVideo/2.png")
